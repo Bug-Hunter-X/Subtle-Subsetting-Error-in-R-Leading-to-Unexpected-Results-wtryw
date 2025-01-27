@@ -1,0 +1,2 @@
+# R Subsetting Bug
+This repository demonstrates a subtle bug related to subsetting data frames in R using logical conditions with the '&' operator. The bug arises from an implicit data type coercion or unintended evaluation order that can lead to incorrect results when comparing values across columns.  The solution highlights a proper way to perform subsetting using clearer conditions to avoid the issue.  The difference between the erroneous and correct methods is highlighted.  See the files `bug.R` and `bugSolution.R` for code examples.
